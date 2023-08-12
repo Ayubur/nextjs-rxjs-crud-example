@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "task": "Study about react",
+      "isCompleted": false,
+      "id": 49940
+    },
+    {
+      "id": 52821,
+      "task": "Study about next.js",
+      "isCompleted": false
+    },
+    {
+      "id": 51237,
+      "email": "rosaguy@fuelton.com",
+      "phone": "+1 (817) 498-2512"
+    },
+    {
+      "id": 54563,
+      "task": "Make a crud application using react",
+      "isCompleted": false
+    },
+    {
+      "id": 24561,
+      "task": "Study about Grapql",
+      "isCompleted": false
+    },
+    {
+      "id": 76922,
+      "task": "Make a crud application using graphql and react",
+      "isCompleted": false
+    },
+    {
+      "id": 6336,
+      "task": "Study about rxjs",
+      "isCompleted": false
+    },
+    {
+      "id": 63544,
+      "task": "Make a crud application using rxjs and react",
+      "isCompleted": false
+    },
+    {
+      "id": 94091,
+      "task": "Make a crud application using rxjs and next js",
+      "isCompleted": false
+    }
+  ]
+}
