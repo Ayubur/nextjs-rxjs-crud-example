@@ -3,5 +3,5 @@ import { FlagState } from "./FlagState";
 import { ErrorState } from "./ErrorState";
 
 export type TodosState = {
-  Todos: Todo[];
+  todos: Todo[];
 } & FlagState & ErrorState;
