@@ -34,3 +34,22 @@ export const register = async (req: RegistrationApiRequest, res: NextApiResponse
   }
 
 }
+
+export const login = async (req: RegistrationApiRequest, res: NextApiResponse) => {
+  const { email, password } = req.body;
+
+  const user = await User.findOne({ email });
+
+  if (!user || !bcrypt.compare(password, user.password)) {
+    res.status(400);
+    throw new Error("Invalid credentials");
+  }
+
+  return {
+    accessToken: await generateJwtToken({
+      id: user._id,
+      email: user.email
+    })
+  }
+
+}
